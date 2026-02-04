@@ -5,7 +5,9 @@ pandas>=1.4.2
 python-dotenv==0.20.0
 psycopg2-binary==2.9.3
 requests==2.27.1
-spotipy==2.23.0
+#spotipy==2.23.0 no se necesitó para este proyecto porque:
+#1. el proyecto no utilizará Spotify
+#2. la API en developer.spotify.com ya no esta permitida para crear nuevas apps
 
 numpy>=1.18.5
 opencv-python>=4.1.2
